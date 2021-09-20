@@ -17,7 +17,7 @@ public class FazanTests extends ChromeSettings {
         mainPage.exitMenu();
     }
     @Test
-    public void RegistrationTiger () throws InterruptedException{
+    public void RegistrationFazanCredit () throws InterruptedException{
         MainPage mainPage = new MainPage(driver);
         LoginPage loginPage = new LoginPage(driver);
         FirstStepPage firstStepPage = new FirstStepPage(driver);
